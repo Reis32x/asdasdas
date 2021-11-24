@@ -88,7 +88,7 @@ async def help(ctx):
         title="<:bot_tick:870672785322676224>Help AutoOwO<:bot_tick:870672785322676224>",
         color=420699,
         description=
-        f":arrow_right: **{prefix}autoOwO**\nowoh, owo sell all, owo flip 500 and owo cash 50 seconds.\n\n**:arrow_right: {prefix}stopautoOwO**\nstops autoOwO.\n\n**:arrow_right: {prefix}Owobanbypass**\nIts prevent you from banning Owo by taking appropriate time\n Example:-`the bot takes breaak 5 min of runnning 1st break= 5min,2nd break=10min 3rd break=15min` \n\n made by Ari.6435"
+        f":arrow_right: **{prefix}autoOwO**\nowoh, wsac all, owo flip 500 and owo cash 50 seconds.\n\n**:arrow_right: {prefix}stopautoOwO**\nstops autoOwO.\n\n**:arrow_right: {prefix}Owobanbypass**\nIts prevent you from banning Owo by taking appropriate time\n Example:-`the bot takes breaak 5 min of runnning 1st break= 5min,2nd break=10min 3rd break=15min` \n\n made by Ari.6435"
     )
     embed.set_thumbnail(
         url=
