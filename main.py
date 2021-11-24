@@ -28,7 +28,7 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="fullu owo ban bypass made by Ari.#6435", type=4)
+    activity = discord.Game(name="╰Øωπαĝε╮", type=4)
     await bot.change_presence(status=discord.Status.idle, activity=activity)
     print(f'''{Fore.RED}
 ██╗░░██╗███████╗██████╗░██╗
@@ -88,7 +88,7 @@ async def help(ctx):
         title="Baran Mongolito--",
         color=420699,
         description=
-        f":arrow_right: **{prefix}autoOwO**\nwh, wsac all, wcf 500 and w cash 50 Segundos.\n\n**:arrow_right: {prefix}StopBot**\Parar Bot.\n\n**:arrow_right:\n\n Reiss32"
+        f":six_pointed_star: **{prefix}autoOwO**\nwh, wsac all, wcf 500 and w cash 50 Segundos.\n\n**:six_pointed_star: {prefix}StopBot**\nParar Bot.\n\n Reiss32"
     )
     embed.set_thumbnail(
         url=
