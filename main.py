@@ -85,10 +85,10 @@ selfbot is ready!
 @bot.command()
 async def help(ctx):
     embed = discord.Embed(
-        title="<:bot_tick:870672785322676224>Help AutoOwO<:bot_tick:870672785322676224>",
+        title="Baran Mongolito--",
         color=420699,
         description=
-        f":arrow_right: **{prefix}autoOwO**\nowoh, wsac all, owo flip 500 and owo cash 50 seconds.\n\n**:arrow_right: {prefix}stopautoOwO**\nstops autoOwO.\n\n**:arrow_right: {prefix}Owobanbypass**\nIts prevent you from banning Owo by taking appropriate time\n Example:-`the bot takes breaak 5 min of runnning 1st break= 5min,2nd break=10min 3rd break=15min` \n\n made by Ari.6435"
+        f":arrow_right: **{prefix}autoOwO**\nwh, wsac all, wcf 500 and w cash 50 Segundos.\n\n**:arrow_right: {prefix}StopBot**\Parar Bot.\n\n**:arrow_right:\n\n Reiss32"
     )
     embed.set_thumbnail(
         url=
@@ -100,7 +100,7 @@ async def help(ctx):
 @bot.command(pass_context=True)
 async def autoOwO(ctx):
     await ctx.message.delete()
-    await ctx.send('auto OwO  is now **enabled**!')
+    await ctx.send('auto OwO  **Encendido**!')
     global dmcs
     dmcs = True
     while dmcs:
@@ -122,7 +122,7 @@ async def autoOwO(ctx):
 @bot.command()
 async def stopautoOwO(ctx):
     await ctx.message.delete()
-    await ctx.send('auto OwO Magi is now **disabled**!')
+    await ctx.send('auto OwO Magi   **Apagado**!')
     global dmcs
     dmcs = False
 
@@ -130,7 +130,7 @@ async def stopautoOwO(ctx):
 @bot.command(pass_context=True)
 async def Owobanbypass(ctx):
     await ctx.message.delete()
-    await ctx.send('owobanbypass is now **enabled**!')
+    await ctx.send('owobanbypass   **Encendido**!')
     global dmcs
     dmcs = True
     while dmcs:
