@@ -8,7 +8,7 @@ import os
 
 #-----SETUP-----#
 
-prefix = "!!"
+prefix = "-"
 
 #use the .env feature to hide your token
 
