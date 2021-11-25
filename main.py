@@ -117,9 +117,7 @@ async def autoOwO(ctx):
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
             await asyncio.sleep(13)
-            await ctx.send('wpray')
-            print(f"{Fore.GREEN}succefully cash")
-            await asyncio.sleep(300)
+
 
 @bot.command()
 async def stopautoOwO(ctx):
@@ -137,9 +135,6 @@ async def Owobanbypass(ctx):
     dmcs = True
     while dmcs:
         async with ctx.typing():
-            wait ctx.send('wpray')
-            print(f"{Fore.GREEN}succefully cash")
-            await asyncio.sleep(300)
             await ctx.send('owoh')
             print(f"{Fore.GREEN}succefully owoh")
             await asyncio.sleep(15)
@@ -341,9 +336,6 @@ async def Owobanbypass(ctx):
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
             await asyncio.sleep(900)
-            wait ctx.send('wpray')
-            print(f"{Fore.GREEN}succefully cash")
-            await asyncio.sleep(300)
 
             await ctx.send('owoh')
             print(f"{Fore.GREEN}succefully owoh")
@@ -445,9 +437,6 @@ async def Owobanbypass(ctx):
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
             await asyncio.sleep(900)
-            wait ctx.send('wpray')
-            print(f"{Fore.GREEN}succefully cash")
-            await asyncio.sleep(300)
 
             await ctx.send('owoh')
             print(f"{Fore.GREEN}succefully owoh")
@@ -548,11 +537,6 @@ async def Owobanbypass(ctx):
             await asyncio.sleep(14)
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
-            wait ctx.send('wpray')
-            print(f"{Fore.GREEN}succefully cash")
-            await asyncio.sleep(300)
-
-
 
             await asyncio.sleep(1200)        
             
