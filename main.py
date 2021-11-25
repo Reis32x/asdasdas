@@ -88,7 +88,7 @@ async def help(ctx):
         title="Baran Mongolito--",
         color=420699,
         description=
-        f":six_pointed_star: **{prefix}autoOwO**\nwh, wsac all, wcf 500 and w cash 50 Segundos.\n\n**:six_pointed_star: {prefix}StopBot**\nParar Bot.\n\n Reiss32"
+        f":six_pointed_star: **{prefix}autoOwO**\nwh, wsac all, wcf 500 and w cash 50 Segundos.\n\n**:six_pointed_star: {prefix}stopautoOwO**\nParar Bot.\n\n Reiss32"
     )
     embed.set_thumbnail(
         url=
@@ -117,7 +117,9 @@ async def autoOwO(ctx):
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
             await asyncio.sleep(13)
-
+            await ctx.send('wpray')
+            print(f"{Fore.GREEN}succefully cash")
+            await asyncio.sleep(300)
 
 @bot.command()
 async def stopautoOwO(ctx):
@@ -135,6 +137,9 @@ async def Owobanbypass(ctx):
     dmcs = True
     while dmcs:
         async with ctx.typing():
+            wait ctx.send('wpray')
+            print(f"{Fore.GREEN}succefully cash")
+            await asyncio.sleep(300)
             await ctx.send('owoh')
             print(f"{Fore.GREEN}succefully owoh")
             await asyncio.sleep(15)
@@ -336,6 +341,9 @@ async def Owobanbypass(ctx):
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
             await asyncio.sleep(900)
+            wait ctx.send('wpray')
+            print(f"{Fore.GREEN}succefully cash")
+            await asyncio.sleep(300)
 
             await ctx.send('owoh')
             print(f"{Fore.GREEN}succefully owoh")
@@ -437,6 +445,9 @@ async def Owobanbypass(ctx):
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
             await asyncio.sleep(900)
+            wait ctx.send('wpray')
+            print(f"{Fore.GREEN}succefully cash")
+            await asyncio.sleep(300)
 
             await ctx.send('owoh')
             print(f"{Fore.GREEN}succefully owoh")
@@ -537,6 +548,12 @@ async def Owobanbypass(ctx):
             await asyncio.sleep(14)
             await ctx.send('owo cash')
             print(f"{Fore.GREEN}succefully cash")
+            wait ctx.send('wpray')
+            print(f"{Fore.GREEN}succefully cash")
+            await asyncio.sleep(300)
+
+
+
             await asyncio.sleep(1200)        
             
 # @bot.command()
